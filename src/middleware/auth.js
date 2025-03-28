@@ -19,4 +19,5 @@ export const authenticateToken = (req, res, next) => {
   } catch (error) {
     next(error);
   }
+  
 };
